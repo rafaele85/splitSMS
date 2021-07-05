@@ -164,6 +164,9 @@ const testLength140 = (testName: string, text: string) => {
     console.log(testName + ' PASS')
 }
 
+
+//master commit 2
+
 const testMatch = (testName: string, text: string) => {
     const result = splitSMS2(text)
     if(result) {
