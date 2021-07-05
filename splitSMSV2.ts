@@ -191,7 +191,7 @@ const testMatch = (testName: string, text: string) => {
     console.log(testName + ' PASS')
 }
 
-
+// master commit 4
 
 const testEquals = (testName: string, text: string, expected: string[]) => {
     const result = splitSMS2(text)
