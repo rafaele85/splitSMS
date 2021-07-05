@@ -180,7 +180,7 @@ const testMatch = (testName: string, text: string) => {
     console.log(testName + ' PASS')
 }
 
-
+// comment1
 
 const testEquals = (testName: string, text: string, expected: string[]) => {
     const result = splitSMS2(text)
