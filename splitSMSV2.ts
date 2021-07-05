@@ -173,6 +173,8 @@ const testLength140 = (testName: string, text: string) => {
 
 //master commit 3
 
+// testbranch4 commit 1
+
 const testMatch = (testName: string, text: string) => {
     const result = splitSMS2(text)
     if(result) {
