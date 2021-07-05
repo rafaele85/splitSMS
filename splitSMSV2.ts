@@ -166,6 +166,9 @@ const testLength140 = (testName: string, text: string) => {
 
 //testbranch2 commit1
 
+
+//master commit 2
+
 const testMatch = (testName: string, text: string) => {
     const result = splitSMS2(text)
     if(result) {
@@ -182,7 +185,7 @@ const testMatch = (testName: string, text: string) => {
     console.log(testName + ' PASS')
 }
 
-// comment1
+
 
 const testEquals = (testName: string, text: string, expected: string[]) => {
     const result = splitSMS2(text)
